@@ -1,0 +1,335 @@
+,Classifier,Parameters,Train accuracy,Test accuracy,Train top 5 accuracy,Test top 5 accuracy,Train computation time,Test computation time,Experiment
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,2.789488316,0.001279354,RGB of the non-background K-means cluster centre
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.427473262,0.397887324,0.847927807,0.823943662,2.922390223,0.000289679,RGB of the non-background K-means cluster centre
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.470254011,0.440140845,0.897727273,0.862676056,0.16663599,0.00020504,RGB of the non-background K-means cluster centre
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.643382353,0.383802817,0.993315508,0.76056338,0.100343704,0.007596016,RGB of the non-background K-means cluster centre
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.614973262,0.320422535,0.980280749,0.669014085,0.544619083,0.000147104,RGB of the non-background K-means cluster centre
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.801136364,0.38028169,0.992312834,0.830985915,22.09901786,0.032836199,RGB of the non-background K-means cluster centre
+6,Naive Bayes,GaussianNB(),0.366644385,0.320422535,0.76671123,0.693661972,0.111812115,0.002659082,RGB of the non-background K-means cluster centre
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.478275401,0.429577465,0.853609626,0.806338028,270.2110078,0.329011202,RGB of the non-background K-means cluster centre
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,2.741687059,0.000928879,HSV of the non-background K-means cluster centre
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.345254011,0.295774648,0.744652406,0.728873239,2.564399004,0.000221252,HSV of the non-background K-means cluster centre
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0.5, solver='lsqr')",0.352272727,0.309859155,0.747660428,0.718309859,0.187664032,0.000200272,HSV of the non-background K-means cluster centre
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.621323529,0.376760563,0.990307487,0.757042254,0.16775918,0.007337332,HSV of the non-background K-means cluster centre
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.601938503,0.38028169,0.969585561,0.707746479,0.637106895,0.000145197,HSV of the non-background K-means cluster centre
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.758355615,0.429577465,0.988970588,0.813380282,17.56568909,0.016536236,HSV of the non-background K-means cluster centre
+6,Naive Bayes,GaussianNB(),0.505347594,0.404929577,0.894719251,0.834507042,0.067527294,0.002583981,HSV of the non-background K-means cluster centre
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=10, gamma=0.1, probability=True,
+                                  random_state=1))",0.388703209,0.320422535,0.765708556,0.700704225,269.2649069,0.370936871,HSV of the non-background K-means cluster centre
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.04134202,0.001624823,LAB of the non-background K-means cluster centre
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.431149733,0.419014085,0.873663102,0.838028169,3.049892664,0.000261784,LAB of the non-background K-means cluster centre
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.468248663,0.440140845,0.898061497,0.866197183,0.151241064,0.000197887,LAB of the non-background K-means cluster centre
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.668449198,0.461267606,0.996991979,0.816901408,0.101979017,0.009130001,LAB of the non-background K-means cluster centre
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.649398396,0.464788732,0.983622995,0.73943662,0.558227062,0.00022769,LAB of the non-background K-means cluster centre
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.806483957,0.478873239,0.996657754,0.876760563,20.94518518,0.017951965,LAB of the non-background K-means cluster centre
+6,Naive Bayes,GaussianNB(),0.510360963,0.447183099,0.917112299,0.866197183,0.060935974,0.00248003,LAB of the non-background K-means cluster centre
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.507018717,0.440140845,0.90040107,0.866197183,226.8646848,0.321403027,LAB of the non-background K-means cluster centre
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.144716024,0.000962973,RGB 4-bin colour histogram
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.708221925,0.524647887,0.976938503,0.911971831,3.231185913,0.000493765,RGB 4-bin colour histogram
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.565173797,0.468309859,0.919451872,0.85915493,0.38206172,0.00028491,RGB 4-bin colour histogram
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.705548128,0.468309859,0.996657754,0.788732394,0.408674955,0.029228926,RGB 4-bin colour histogram
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.434157754,0.285211268,0.856617647,0.637323944,0.835732937,0.0002141,RGB 4-bin colour histogram
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.911430481,0.647887324,0.997994652,0.954225352,26.41572595,0.016444921,RGB 4-bin colour histogram
+6,Naive Bayes,GaussianNB(),0.72894385,0.563380282,0.988636364,0.86971831,0.19717598,0.005089998,RGB 4-bin colour histogram
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.820187166,0.588028169,0.980280749,0.873239437,399.8182919,0.311181068,RGB 4-bin colour histogram
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.071589947,0.00101614,RGB 8-bin colour histogram
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.922125668,0.60915493,0.998997326,0.922535211,10.77435112,0.000580788,RGB 8-bin colour histogram
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0.5, solver='lsqr')",0.738302139,0.535211268,0.975601604,0.919014085,2.351731777,0.000537157,RGB 8-bin colour histogram
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.756350267,0.48943662,0.998997326,0.823943662,0.764583826,0.032566071,RGB 8-bin colour histogram
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=5, min_samples_leaf=9,
+                       random_state=1)",0.276069519,0.179577465,0.626336898,0.457746479,1.205723763,0.000672102,RGB 8-bin colour histogram
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, n_estimators=50,
+                       random_state=1)",0.902406417,0.588028169,0.993649733,0.940140845,40.57565594,0.00854826,RGB 8-bin colour histogram
+6,Naive Bayes,GaussianNB(),0.850601604,0.588028169,0.997994652,0.781690141,0.435106039,0.021858931,RGB 8-bin colour histogram
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.988970588,0.626760563,0.999665775,0.86971831,1387.628375,0.441996098,RGB 8-bin colour histogram
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.190592766,0.001183033,RGB 4 and 8-bin colour histogram
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.934491979,0.63028169,0.998997326,0.926056338,11.9311409,0.000695944,RGB 4 and 8-bin colour histogram
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.840240642,0.528169014,0.983622995,0.85915493,3.467327833,0.000943184,RGB 4 and 8-bin colour histogram
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.751671123,0.5,0.998328877,0.806338028,0.815155029,0.034780979,RGB 4 and 8-bin colour histogram
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=7,
+                       random_state=1)",0.314505348,0.218309859,0.739973262,0.573943662,1.140480995,0.001093864,RGB 4 and 8-bin colour histogram
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.924465241,0.651408451,0.998328877,0.940140845,45.88036013,0.01634717,RGB 4 and 8-bin colour histogram
+6,Naive Bayes,GaussianNB(),0.850935829,0.612676056,0.997994652,0.781690141,0.491708994,0.025790215,RGB 4 and 8-bin colour histogram
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.99565508,0.623239437,1,0.88028169,1741.956462,0.464896917,RGB 4 and 8-bin colour histogram
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.039572001,0.001284122,HSV 4-bin colour histogram
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.635360963,0.507042254,0.935494652,0.855633803,3.591319084,0.000359058,HSV 4-bin colour histogram
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.498997326,0.404929577,0.875,0.785211268,0.390987158,0.000259876,HSV 4-bin colour histogram
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.639037433,0.387323944,0.99131016,0.721830986,0.396224022,0.020750761,HSV 4-bin colour histogram
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=5, min_samples_leaf=7,
+                       random_state=1)",0.593917112,0.341549296,0.937834225,0.651408451,0.994265795,0.000216246,HSV 4-bin colour histogram
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.901069519,0.570422535,0.993649733,0.887323944,32.87896013,0.016708136,HSV 4-bin colour histogram
+6,Naive Bayes,GaussianNB(),0.674799465,0.461267606,0.95421123,0.785211268,0.238862038,0.007516146,HSV 4-bin colour histogram
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.798462567,0.482394366,0.94986631,0.792253521,468.8206747,0.33566165,HSV 4-bin colour histogram
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.173558235,0.001018763,HSV 8-bin colour histogram
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.912433155,0.559859155,0.995989305,0.887323944,11.02873278,0.000575066,HSV 8-bin colour histogram
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.806149733,0.454225352,0.973930481,0.788732394,2.252111912,0.000535011,HSV 8-bin colour histogram
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.700868984,0.454225352,0.995989305,0.771126761,0.77601099,0.027828932,HSV 8-bin colour histogram
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=5, min_samples_leaf=9,
+                       random_state=1)",0.387700535,0.292253521,0.768716578,0.64084507,1.192072153,0.000581026,HSV 8-bin colour histogram
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.910427807,0.633802817,0.996323529,0.950704225,52.24622107,0.016506195,HSV 8-bin colour histogram
+6,Naive Bayes,GaussianNB(),0.856951872,0.48943662,0.988302139,0.700704225,0.334067822,0.022652149,HSV 8-bin colour histogram
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.987967914,0.528169014,0.997660428,0.809859155,1367.079543,0.521481991,HSV 8-bin colour histogram
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.216578007,0.001124144,HSV 4 and 8-bin colour histogram
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.92513369,0.559859155,0.997660428,0.89084507,11.24002194,0.000658035,HSV 4 and 8-bin colour histogram
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.832887701,0.503521127,0.980949198,0.795774648,2.758559942,0.000614166,HSV 4 and 8-bin colour histogram
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.69986631,0.450704225,0.995320856,0.778169014,0.960536718,0.032679796,HSV 4 and 8-bin colour histogram
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.368649733,0.228873239,0.784759358,0.588028169,1.254420757,0.000937939,HSV 4 and 8-bin colour histogram
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.923128342,0.644366197,0.997994652,0.933098592,57.64223003,0.016603947,HSV 4 and 8-bin colour histogram
+6,Naive Bayes,GaussianNB(),0.853609626,0.514084507,0.985294118,0.718309859,0.522634029,0.026449919,HSV 4 and 8-bin colour histogram
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.993983957,0.580985915,1,0.827464789,1609.901842,0.534785032,HSV 4 and 8-bin colour histogram
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.141548872,0.001117229,LAB 4-bin colour histogram
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.493983957,0.426056338,0.885360963,0.806338028,3.261687994,0.000376225,LAB 4-bin colour histogram
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.385026738,0.35915493,0.789772727,0.725352113,0.376734972,0.000253916,LAB 4-bin colour histogram
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.581885027,0.327464789,0.984291444,0.700704225,0.408994198,0.021622181,LAB 4-bin colour histogram
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.232620321,0.179577465,0.577874332,0.492957746,0.750190973,0.000225067,LAB 4-bin colour histogram
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.875334225,0.566901408,0.993983957,0.915492958,21.12381124,0.01627183,LAB 4-bin colour histogram
+6,Naive Bayes,GaussianNB(),0.526403743,0.426056338,0.916109626,0.802816901,0.203891277,0.005130053,LAB 4-bin colour histogram
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.637032086,0.464788732,0.908088235,0.788732394,484.8939209,0.375926971,LAB 4-bin colour histogram
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.083854198,0.00124383,LAB 8-bin colour histogram
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.750334225,0.521126761,0.986296791,0.915492958,10.70210814,0.000524044,LAB 8-bin colour histogram
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.594919786,0.429577465,0.930815508,0.845070423,2.269756317,0.000529051,LAB 8-bin colour histogram
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.668783422,0.429577465,0.996323529,0.75,0.645508051,0.030761242,LAB 8-bin colour histogram
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=7,
+                       random_state=1)",0.179812834,0.137323944,0.43315508,0.376760563,0.968225002,0.000648022,LAB 8-bin colour histogram
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.907085561,0.64084507,0.995320856,0.936619718,26.90644383,0.016490936,LAB 8-bin colour histogram
+6,Naive Bayes,GaussianNB(),0.755681818,0.535211268,0.991644385,0.827464789,0.429906845,0.037878036,LAB 8-bin colour histogram
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.893048128,0.552816901,0.986631016,0.862676056,1212.880699,0.501173019,LAB 8-bin colour histogram
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.222373247,0.000934362,LAB 4 and 8-bin colour histogram
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.777072193,0.51056338,0.988302139,0.922535211,11.6840179,0.000823736,LAB 4 and 8-bin colour histogram
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.642713904,0.464788732,0.939171123,0.834507042,2.635586739,0.000560999,LAB 4 and 8-bin colour histogram
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.667446524,0.433098592,0.996991979,0.76056338,0.817747116,0.031667233,LAB 4 and 8-bin colour histogram
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=5, min_samples_leaf=9,
+                       random_state=1)",0.217914439,0.147887324,0.535427807,0.468309859,1.054849148,0.000725985,LAB 4 and 8-bin colour histogram
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.91644385,0.64084507,0.997660428,0.940140845,31.48538589,0.019607782,LAB 4 and 8-bin colour histogram
+6,Naive Bayes,GaussianNB(),0.748663102,0.542253521,0.990975936,0.841549296,0.410119772,0.026337147,LAB 4 and 8-bin colour histogram
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.924465241,0.570422535,0.990975936,0.852112676,1473.847541,0.501136303,LAB 4 and 8-bin colour histogram
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,2.828876972,0.001502991,RGB 4-bin colour histogram and Haralick texture
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.847259358,0.616197183,0.990641711,0.915492958,10.58533716,0.000503063,RGB 4-bin colour histogram and Haralick texture
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.74197861,0.531690141,0.961229947,0.904929577,0.859352827,0.000461102,RGB 4-bin colour histogram and Haralick texture
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.74197861,0.471830986,0.997326203,0.816901408,0.517721891,0.024838924,RGB 4-bin colour histogram and Haralick texture
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=9, min_samples_leaf=9,
+                       random_state=1)",0.527740642,0.330985915,0.888368984,0.658450704,1.872739077,0.000420094,RGB 4-bin colour histogram and Haralick texture
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.938836898,0.654929577,0.998997326,0.950704225,77.00063109,0.026209116,RGB 4-bin colour histogram and Haralick texture
+6,Naive Bayes,GaussianNB(),0.792446524,0.616197183,0.997326203,0.862676056,0.226973057,0.007953882,RGB 4-bin colour histogram and Haralick texture
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.962566845,0.637323944,0.996991979,0.88028169,631.056005,0.339907885,RGB 4-bin colour histogram and Haralick texture
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,2.82382822,0.001098871,RGB 8-bin colour histogram and Haralick texture
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.967914439,0.647887324,1,0.933098592,19.03287816,0.00107193,RGB 8-bin colour histogram and Haralick texture
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0.5, solver='lsqr')",0.785762032,0.588028169,0.980949198,0.947183099,3.904148102,0.000854969,RGB 8-bin colour histogram and Haralick texture
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.795454545,0.521126761,0.999331551,0.866197183,1.080411911,0.043446779,RGB 8-bin colour histogram and Haralick texture
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=7, min_samples_leaf=9,
+                       random_state=1)",0.353275401,0.26056338,0.692513369,0.577464789,1.60145092,0.000772238,RGB 8-bin colour histogram and Haralick texture
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, n_estimators=50,
+                       random_state=1)",0.938168449,0.654929577,0.998328877,0.936619718,55.76189399,0.010011911,RGB 8-bin colour histogram and Haralick texture
+6,Naive Bayes,GaussianNB(),0.868315508,0.61971831,0.998663102,0.785211268,0.512443304,0.035806179,RGB 8-bin colour histogram and Haralick texture
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.999665775,0.633802817,1,0.88028169,1436.316074,0.489285946,RGB 8-bin colour histogram and Haralick texture
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.177696943,0.000980139,HSV 4-bin colour histogram and Haralick texture
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.822526738,0.556338028,0.985628342,0.897887324,6.496733904,0.000427008,HSV 4-bin colour histogram and Haralick texture
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.705548128,0.482394366,0.958890374,0.866197183,0.502114058,0.000312805,HSV 4-bin colour histogram and Haralick texture
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.718248663,0.443661972,0.994652406,0.806338028,0.424635172,0.024218798,HSV 4-bin colour histogram and Haralick texture
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=9, min_samples_leaf=9,
+                       random_state=1)",0.577540107,0.323943662,0.90842246,0.616197183,1.328283787,0.000216722,HSV 4-bin colour histogram and Haralick texture
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.920454545,0.577464789,0.995989305,0.922535211,54.65597129,0.016518116,HSV 4-bin colour histogram and Haralick texture
+6,Naive Bayes,GaussianNB(),0.757687166,0.552816901,0.980614973,0.799295775,0.21508193,0.007441044,HSV 4-bin colour histogram and Haralick texture
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.959893048,0.577464789,0.997994652,0.873239437,580.5563431,0.31291008,HSV 4-bin colour histogram and Haralick texture
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.186448097,0.001355171,HSV 8-bin colour histogram and Haralick texture
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.963903743,0.588028169,0.999331551,0.922535211,18.20819998,0.000694036,HSV 8-bin colour histogram and Haralick texture
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.880347594,0.51056338,0.988636364,0.827464789,2.626533985,0.00056386,HSV 8-bin colour histogram and Haralick texture
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.748663102,0.542253521,0.997326203,0.827464789,0.797082186,0.031213045,HSV 8-bin colour histogram and Haralick texture
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=7, min_samples_leaf=9,
+                       random_state=1)",0.443850267,0.267605634,0.780080214,0.566901408,1.31678319,0.000751019,HSV 8-bin colour histogram and Haralick texture
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.922125668,0.654929577,0.996657754,0.936619718,69.33146214,0.017634869,HSV 8-bin colour histogram and Haralick texture
+6,Naive Bayes,GaussianNB(),0.867647059,0.524647887,0.99197861,0.718309859,0.523579836,0.050389051,HSV 8-bin colour histogram and Haralick texture
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.998997326,0.584507042,1,0.85915493,1633.991827,0.50240469,HSV 8-bin colour histogram and Haralick texture
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.152295113,0.000959158,RGB 4-bin colour histogram and local binary pattern with 8 points and radius of 1
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.820855615,0.626760563,0.988970588,0.919014085,3.862217903,0.000515223,RGB 4-bin colour histogram and local binary pattern with 8 points and radius of 1
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0.5, solver='lsqr')",0.612299465,0.521126761,0.934491979,0.894366197,0.40862298,0.000256062,RGB 4-bin colour histogram and local binary pattern with 8 points and radius of 1
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.737299465,0.51056338,0.99565508,0.816901408,0.401483059,0.022927046,RGB 4-bin colour histogram and local binary pattern with 8 points and radius of 1
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=7, min_samples_leaf=9,
+                       random_state=1)",0.551136364,0.330985915,0.910762032,0.658450704,1.008742809,0.000216007,RGB 4-bin colour histogram and local binary pattern with 8 points and radius of 1
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.92513369,0.690140845,0.997994652,0.936619718,33.77693582,0.016407013,RGB 4-bin colour histogram and local binary pattern with 8 points and radius of 1
+6,Naive Bayes,GaussianNB(),0.749665775,0.591549296,0.992981283,0.86971831,0.202064037,0.005846024,RGB 4-bin colour histogram and local binary pattern with 8 points and radius of 1
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.934157754,0.637323944,0.995989305,0.89084507,394.6688843,0.289463043,RGB 4-bin colour histogram and local binary pattern with 8 points and radius of 1
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.086915016,0.000871897,RGB 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.961564171,0.651408451,1,0.919014085,10.77801204,0.00054574,RGB 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0.5, solver='lsqr')",0.756016043,0.577464789,0.977606952,0.936619718,2.260823011,0.000530958,RGB 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.77105615,0.517605634,0.997660428,0.830985915,0.745693922,0.030622005,RGB 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.300802139,0.200704225,0.715574866,0.61971831,1.062064171,0.000663042,RGB 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.933823529,0.693661972,0.997994652,0.943661972,39.8052001,0.016475916,RGB 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+6,Naive Bayes,GaussianNB(),0.852941176,0.595070423,0.997994652,0.774647887,0.462220907,0.046496868,RGB 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.999331551,0.658450704,1,0.876760563,1553.678325,0.42036581,RGB 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.201349735,0.001196623,RGB 4 and 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.965909091,0.672535211,1,0.929577465,17.24013495,0.001462936,RGB 4 and 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.860962567,0.556338028,0.985628342,0.866197183,3.587920189,0.000699043,RGB 4 and 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.773061497,0.531690141,0.997326203,0.816901408,0.926939964,0.048259974,RGB 4 and 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.262700535,0.200704225,0.688168449,0.588028169,1.349448919,0.000727177,RGB 4 and 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.935494652,0.686619718,0.997326203,0.964788732,60.72505617,0.018131971,RGB 4 and 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+6,Naive Bayes,GaussianNB(),0.853275401,0.616197183,0.997326203,0.778169014,0.544686079,0.028784275,RGB 4 and 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",1,0.665492958,1,0.876760563,1807.239968,0.4463799,RGB 4 and 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.199255228,0.000976086,RGB 4 and 8-bin colour histogram and local binary pattern with 8 points at radius of 1 and 24 points at radius of 3
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.981283422,0.686619718,1,0.926056338,17.78590584,0.000828266,RGB 4 and 8-bin colour histogram and local binary pattern with 8 points at radius of 1 and 24 points at radius of 3
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.889705882,0.570422535,0.990641711,0.86971831,2.961378098,0.000627756,RGB 4 and 8-bin colour histogram and local binary pattern with 8 points at radius of 1 and 24 points at radius of 3
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.776403743,0.528169014,0.997660428,0.823943662,0.864827156,0.035894871,RGB 4 and 8-bin colour histogram and local binary pattern with 8 points at radius of 1 and 24 points at radius of 3
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.31684492,0.214788732,0.684491979,0.566901408,1.265269041,0.00078392,RGB 4 and 8-bin colour histogram and local binary pattern with 8 points at radius of 1 and 24 points at radius of 3
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.939505348,0.679577465,0.997994652,0.950704225,61.11773896,0.017064095,RGB 4 and 8-bin colour histogram and local binary pattern with 8 points at radius of 1 and 24 points at radius of 3
+6,Naive Bayes,GaussianNB(),0.856617647,0.626760563,0.996323529,0.778169014,0.542325974,0.028124332,RGB 4 and 8-bin colour histogram and local binary pattern with 8 points at radius of 1 and 24 points at radius of 3
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",1,0.658450704,1,0.873239437,1752.697101,0.490111828,RGB 4 and 8-bin colour histogram and local binary pattern with 8 points at radius of 1 and 24 points at radius of 3
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.159615278,0.001091242,HSV 4-bin colour histogram and local binary pattern with 8 points and radius of 1
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.768716578,0.542253521,0.97092246,0.89084507,3.849177122,0.000415087,HSV 4-bin colour histogram and local binary pattern with 8 points and radius of 1
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.438836898,0.345070423,0.797125668,0.711267606,0.424118042,0.000265837,HSV 4-bin colour histogram and local binary pattern with 8 points and radius of 1
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.689505348,0.447183099,0.99197861,0.76056338,0.413378,0.024015188,HSV 4-bin colour histogram and local binary pattern with 8 points and radius of 1
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=5, min_samples_leaf=9,
+                       random_state=1)",0.513034759,0.320422535,0.859625668,0.598591549,1.216342926,0.000252247,HSV 4-bin colour histogram and local binary pattern with 8 points and radius of 1
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.923128342,0.60915493,0.995989305,0.911971831,46.6801219,0.017623901,HSV 4-bin colour histogram and local binary pattern with 8 points and radius of 1
+6,Naive Bayes,GaussianNB(),0.697526738,0.478873239,0.95855615,0.792253521,0.214293957,0.006525278,HSV 4-bin colour histogram and local binary pattern with 8 points and radius of 1
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.912433155,0.556338028,0.988636364,0.873239437,576.9806838,0.363835096,HSV 4-bin colour histogram and local binary pattern with 8 points and radius of 1
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.212375164,0.001884937,HSV 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.953208556,0.602112676,0.998997326,0.89084507,18.97407508,0.00072813,HSV 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0, solver='lsqr')",0.834893048,0.48943662,0.981951872,0.816901408,2.907890797,0.000664234,HSV 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.720254011,0.496478873,0.996323529,0.799295775,0.849292994,0.040659428,HSV 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=9, min_samples_leaf=7,
+                       random_state=1)",0.431818182,0.246478873,0.78709893,0.566901408,2.021206141,0.000865698,HSV 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.930147059,0.665492958,0.996991979,0.933098592,82.35083008,0.048403263,HSV 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+6,Naive Bayes,GaussianNB(),0.859291444,0.503521127,0.988970588,0.711267606,0.514616013,0.028937817,HSV 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.995989305,0.584507042,1,0.834507042,1810.186057,0.552608967,HSV 8-bin colour histogram and local binary pattern with 8 points and radius of 1
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.099307775,0.001422882,RGB 8-bin colour histogram and local binary pattern with 8 points and radius of 3
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.956216578,0.654929577,1,0.929577465,15.19825292,0.000818968,RGB 8-bin colour histogram and local binary pattern with 8 points and radius of 3
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0.5, solver='lsqr')",0.756016043,0.570422535,0.978275401,0.933098592,3.995015144,0.00138998,RGB 8-bin colour histogram and local binary pattern with 8 points and radius of 3
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.771724599,0.507042254,0.997326203,0.827464789,1.253090858,0.09940505,RGB 8-bin colour histogram and local binary pattern with 8 points and radius of 3
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.277072193,0.211267606,0.685494652,0.612676056,1.804034948,0.000733852,RGB 8-bin colour histogram and local binary pattern with 8 points and radius of 3
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.932486631,0.676056338,0.997660428,0.943661972,78.95794392,0.017642021,RGB 8-bin colour histogram and local binary pattern with 8 points and radius of 3
+6,Naive Bayes,GaussianNB(),0.853609626,0.598591549,0.997994652,0.774647887,0.540163994,0.035444021,RGB 8-bin colour histogram and local binary pattern with 8 points and radius of 3
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.998997326,0.64084507,1,0.855633803,1530.685414,0.427489042,RGB 8-bin colour histogram and local binary pattern with 8 points and radius of 3
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.082335949,0.000888824,RGB 8-bin colour histogram and local binary pattern with 16 points and radius of 1
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.969585561,0.661971831,1,0.915492958,11.26230311,0.000566959,RGB 8-bin colour histogram and local binary pattern with 16 points and radius of 1
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0.5, solver='lsqr')",0.764037433,0.595070423,0.978609626,0.936619718,2.324063778,0.000546217,RGB 8-bin colour histogram and local binary pattern with 16 points and radius of 1
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.779411765,0.538732394,0.996991979,0.855633803,0.75425005,0.038333893,RGB 8-bin colour histogram and local binary pattern with 16 points and radius of 1
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.330548128,0.225352113,0.767045455,0.584507042,1.098092794,0.000715017,RGB 8-bin colour histogram and local binary pattern with 16 points and radius of 1
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.934491979,0.686619718,0.997660428,0.954225352,43.32623577,0.016808987,RGB 8-bin colour histogram and local binary pattern with 16 points and radius of 1
+6,Naive Bayes,GaussianNB(),0.85394385,0.598591549,0.997994652,0.774647887,0.478203058,0.03332305,RGB 8-bin colour histogram and local binary pattern with 16 points and radius of 1
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",1,0.669014085,1,0.855633803,1396.318976,0.453959227,RGB 8-bin colour histogram and local binary pattern with 16 points and radius of 1
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.088160992,0.000987053,RGB 8-bin colour histogram and local binary pattern with 16 points and radius of 3
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.963903743,0.658450704,1,0.926056338,14.971874,0.000784874,RGB 8-bin colour histogram and local binary pattern with 16 points and radius of 3
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0.5, solver='lsqr')",0.759692513,0.588028169,0.97894385,0.933098592,2.489399195,0.000560999,RGB 8-bin colour histogram and local binary pattern with 16 points and radius of 3
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.77473262,0.517605634,0.997660428,0.816901408,0.838107824,0.032959223,RGB 8-bin colour histogram and local binary pattern with 16 points and radius of 3
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.313836898,0.204225352,0.734625668,0.559859155,1.399341106,0.000674963,RGB 8-bin colour histogram and local binary pattern with 16 points and radius of 3
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.93315508,0.644366197,0.996991979,0.950704225,53.52772784,0.02140975,RGB 8-bin colour histogram and local binary pattern with 16 points and radius of 3
+6,Naive Bayes,GaussianNB(),0.854278075,0.598591549,0.997994652,0.774647887,0.474868774,0.033859015,RGB 8-bin colour histogram and local binary pattern with 16 points and radius of 3
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",1,0.647887324,1,0.855633803,1656.328381,0.591786146,RGB 8-bin colour histogram and local binary pattern with 16 points and radius of 3
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.222520828,0.00356698,RGB 8-bin colour histogram and local binary pattern with 24 points and radius of 1
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.971256684,0.665492958,1,0.919014085,22.44853091,0.000772953,RGB 8-bin colour histogram and local binary pattern with 24 points and radius of 1
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0.5, solver='lsqr')",0.768048128,0.598591549,0.978609626,0.940140845,3.709914207,0.000664949,RGB 8-bin colour histogram and local binary pattern with 24 points and radius of 1
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.782085561,0.545774648,0.997326203,0.85915493,1.09421277,0.047964811,RGB 8-bin colour histogram and local binary pattern with 24 points and radius of 1
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.244318182,0.186619718,0.669451872,0.584507042,1.857784033,0.005364895,RGB 8-bin colour histogram and local binary pattern with 24 points and radius of 1
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.933489305,0.665492958,0.99565508,0.940140845,83.25618982,0.02491498,RGB 8-bin colour histogram and local binary pattern with 24 points and radius of 1
+6,Naive Bayes,GaussianNB(),0.853275401,0.602112676,0.997994652,0.771126761,1.076089859,0.121541023,RGB 8-bin colour histogram and local binary pattern with 24 points and radius of 1
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",1,0.669014085,1,0.862676056,1881.355156,0.5458951,RGB 8-bin colour histogram and local binary pattern with 24 points and radius of 1
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.223847866,0.001257896,RGB 8-bin colour histogram and local binary pattern with 24 points and radius of 3
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.969585561,0.665492958,1,0.926056338,17.55875397,0.000798941,RGB 8-bin colour histogram and local binary pattern with 24 points and radius of 3
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0.5, solver='lsqr')",0.761029412,0.595070423,0.978275401,0.943661972,2.769179821,0.001222849,RGB 8-bin colour histogram and local binary pattern with 24 points and radius of 3
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.772058824,0.517605634,0.997994652,0.820422535,0.832202911,0.033962965,RGB 8-bin colour histogram and local binary pattern with 24 points and radius of 3
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.246657754,0.183098592,0.682820856,0.591549296,1.418081999,0.000781059,RGB 8-bin colour histogram and local binary pattern with 24 points and radius of 3
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.934826203,0.669014085,0.996657754,0.947183099,66.5556941,0.016928911,RGB 8-bin colour histogram and local binary pattern with 24 points and radius of 3
+6,Naive Bayes,GaussianNB(),0.854278075,0.598591549,0.998328877,0.774647887,0.571366072,0.042292118,RGB 8-bin colour histogram and local binary pattern with 24 points and radius of 3
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",1,0.644366197,1,0.85915493,1683.822657,0.463870049,RGB 8-bin colour histogram and local binary pattern with 24 points and radius of 3
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,2.944965839,0.001113176,RGB 8-bin colour histogram and GLCM correlation with offset of 1 and angle of 0
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.927473262,0.61971831,0.999331551,0.922535211,10.63067412,0.000588894,RGB 8-bin colour histogram and GLCM correlation with offset of 1 and angle of 0
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0.5, solver='lsqr')",0.739973262,0.542253521,0.976938503,0.919014085,2.259952068,0.000585079,RGB 8-bin colour histogram and GLCM correlation with offset of 1 and angle of 0
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.755013369,0.48943662,0.999331551,0.830985915,0.778245926,0.032497883,RGB 8-bin colour histogram and GLCM correlation with offset of 1 and angle of 0
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.323529412,0.267605634,0.740307487,0.633802817,1.28331995,0.000619888,RGB 8-bin colour histogram and GLCM correlation with offset of 1 and angle of 0
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.915106952,0.676056338,0.996657754,0.943661972,38.42404222,0.016179085,RGB 8-bin colour histogram and GLCM correlation with offset of 1 and angle of 0
+6,Naive Bayes,GaussianNB(),0.850935829,0.588028169,0.997994652,0.781690141,0.430697918,0.022637844,RGB 8-bin colour histogram and GLCM correlation with offset of 1 and angle of 0
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.990975936,0.626760563,1,0.866197183,1368.614671,0.457978964,RGB 8-bin colour histogram and GLCM correlation with offset of 1 and angle of 0
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.194717884,0.001044989,RGB 8-bin colour histogram and GLCM energy with offset of 1 and angle of 0
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.930481283,0.612676056,0.999665775,0.919014085,9.78315115,0.000545025,RGB 8-bin colour histogram and GLCM energy with offset of 1 and angle of 0
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0.5, solver='lsqr')",0.743315508,0.545774648,0.975935829,0.919014085,2.237493992,0.000526905,RGB 8-bin colour histogram and GLCM energy with offset of 1 and angle of 0
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.759024064,0.514084507,0.998997326,0.830985915,0.745359182,0.031145811,RGB 8-bin colour histogram and GLCM energy with offset of 1 and angle of 0
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.27105615,0.221830986,0.693181818,0.626760563,1.041555882,0.000631094,RGB 8-bin colour histogram and GLCM energy with offset of 1 and angle of 0
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.917446524,0.665492958,0.996323529,0.961267606,37.91982007,0.016425848,RGB 8-bin colour histogram and GLCM energy with offset of 1 and angle of 0
+6,Naive Bayes,GaussianNB(),0.852606952,0.591549296,0.997994652,0.778169014,0.431284904,0.022900105,RGB 8-bin colour histogram and GLCM energy with offset of 1 and angle of 0
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.989973262,0.63028169,1,0.862676056,1606.838521,0.455788136,RGB 8-bin colour histogram and GLCM energy with offset of 1 and angle of 0
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.204333067,0.000982761,RGB 8-bin colour histogram and GLCM dissimilarity with offset of 1 and angle of 0
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.933823529,0.616197183,0.999331551,0.922535211,11.82576919,0.000623226,RGB 8-bin colour histogram and GLCM dissimilarity with offset of 1 and angle of 0
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0.5, solver='lsqr')",0.742312834,0.545774648,0.976604278,0.915492958,2.489049911,0.000553846,RGB 8-bin colour histogram and GLCM dissimilarity with offset of 1 and angle of 0
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.758355615,0.492957746,0.999665775,0.823943662,0.800449133,0.035892963,RGB 8-bin colour histogram and GLCM dissimilarity with offset of 1 and angle of 0
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.323529412,0.25,0.730949198,0.654929577,1.167564154,0.000656843,RGB 8-bin colour histogram and GLCM dissimilarity with offset of 1 and angle of 0
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.930481283,0.672535211,0.996657754,0.940140845,43.6017549,0.019001961,RGB 8-bin colour histogram and GLCM dissimilarity with offset of 1 and angle of 0
+6,Naive Bayes,GaussianNB(),0.850601604,0.588028169,0.997994652,0.781690141,0.465322018,0.024629831,RGB 8-bin colour histogram and GLCM dissimilarity with offset of 1 and angle of 0
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.992981283,0.623239437,0.999331551,0.88028169,1605.416192,0.440399885,RGB 8-bin colour histogram and GLCM dissimilarity with offset of 1 and angle of 0
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.077198029,0.000891209,RGB 8-bin colour histogram and GLCM homogeneity with offset of 1 and angle of 0
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.936831551,0.626760563,0.999331551,0.922535211,10.3960011,0.000533104,RGB 8-bin colour histogram and GLCM homogeneity with offset of 1 and angle of 0
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0.5, solver='lsqr')",0.742312834,0.545774648,0.976604278,0.926056338,2.269748926,0.000530005,RGB 8-bin colour histogram and GLCM homogeneity with offset of 1 and angle of 0
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.756350267,0.496478873,0.998663102,0.834507042,0.760105133,0.032192945,RGB 8-bin colour histogram and GLCM homogeneity with offset of 1 and angle of 0
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=7,
+                       random_state=1)",0.248663102,0.204225352,0.641377005,0.566901408,1.083619833,0.000744104,RGB 8-bin colour histogram and GLCM homogeneity with offset of 1 and angle of 0
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.920120321,0.651408451,0.995989305,0.950704225,38.59453082,0.016492844,RGB 8-bin colour histogram and GLCM homogeneity with offset of 1 and angle of 0
+6,Naive Bayes,GaussianNB(),0.851938503,0.591549296,0.997994652,0.778169014,0.452860117,0.023221016,RGB 8-bin colour histogram and GLCM homogeneity with offset of 1 and angle of 0
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.993983957,0.633802817,0.999331551,0.873239437,1403.147963,0.47023201,RGB 8-bin colour histogram and GLCM homogeneity with offset of 1 and angle of 0
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.172422171,0.001534939,RGB 8-bin colour histogram and GLCM contrast with offset of 1 and angle of 0
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.929812834,0.623239437,0.998997326,0.929577465,11.75068426,0.000549793,RGB 8-bin colour histogram and GLCM contrast with offset of 1 and angle of 0
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0.5, solver='lsqr')",0.748328877,0.538732394,0.975601604,0.926056338,2.731524706,0.000547171,RGB 8-bin colour histogram and GLCM contrast with offset of 1 and angle of 0
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.752005348,0.48943662,0.999665775,0.827464789,1.037436962,0.031575203,RGB 8-bin colour histogram and GLCM contrast with offset of 1 and angle of 0
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=7,
+                       random_state=1)",0.292446524,0.204225352,0.714237968,0.588028169,1.395978928,0.000686169,RGB 8-bin colour histogram and GLCM contrast with offset of 1 and angle of 0
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.926136364,0.654929577,0.996991979,0.961267606,48.90238905,0.016376019,RGB 8-bin colour histogram and GLCM contrast with offset of 1 and angle of 0
+6,Naive Bayes,GaussianNB(),0.852272727,0.588028169,0.997994652,0.785211268,0.493477821,0.027056694,RGB 8-bin colour histogram and GLCM contrast with offset of 1 and angle of 0
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.99131016,0.623239437,0.999665775,0.873239437,1943.016363,0.466010809,RGB 8-bin colour histogram and GLCM contrast with offset of 1 and angle of 0
+0,Baseline,"DummyClassifier(random_state=1, strategy='stratified')",0.015374332,0.007042254,0.074197861,0.063380282,0.206432819,0.000994205,RGB 8-bin colour histogram and GLCM ASM with offset of 1 and angle of 0
+1,Logistic Regression,"LogisticRegression(C=10, random_state=1)",0.926804813,0.61971831,0.999331551,0.919014085,10.24509287,0.000535727,RGB 8-bin colour histogram and GLCM ASM with offset of 1 and angle of 0
+2,Linear Discriminant Analysis,"LinearDiscriminantAnalysis(shrinkage=0.5, solver='lsqr')",0.74197861,0.538732394,0.976270053,0.919014085,2.213113785,0.000524998,RGB 8-bin colour histogram and GLCM ASM with offset of 1 and angle of 0
+3,K-Nearest Neighbour,KNeighborsClassifier(n_neighbors=9),0.759358289,0.5,0.999331551,0.830985915,1.063247919,0.056730032,RGB 8-bin colour histogram and GLCM ASM with offset of 1 and angle of 0
+4,Decision Tree,"DecisionTreeClassifier(max_depth=10, max_features=3, min_samples_leaf=9,
+                       random_state=1)",0.265374332,0.211267606,0.683489305,0.61971831,1.068661928,0.000694036,RGB 8-bin colour histogram and GLCM ASM with offset of 1 and angle of 0
+5,Random Forest,"RandomForestClassifier(max_depth=9, min_samples_leaf=3, random_state=1)",0.922794118,0.661971831,0.995989305,0.947183099,39.65226173,0.016436815,RGB 8-bin colour histogram and GLCM ASM with offset of 1 and angle of 0
+6,Naive Bayes,GaussianNB(),0.851604278,0.591549296,0.997994652,0.778169014,0.435265064,0.03886199,RGB 8-bin colour histogram and GLCM ASM with offset of 1 and angle of 0
+7,Support Vector Machine,"OneVsRestClassifier(estimator=SVC(C=100, gamma=0.1, probability=True,
+                                  random_state=1))",0.989639037,0.626760563,1,0.862676056,1758.646762,0.445265293,RGB 8-bin colour histogram and GLCM ASM with offset of 1 and angle of 0
+,ResNet,ResNet18,0.712047,0.619718,0.939765,0.894366,293.053,2.211962,ResNet18
+,ResNet,ResNet50,0.734084,0.633803,0.96474,0.915493,449.086838,4.524391,ResNet50
