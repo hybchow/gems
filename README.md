@@ -74,14 +74,14 @@ The expert group consisted of three gemmologists with both Graduate Gemologist o
 
 Experimental findings were visualised using Python and Tableau. All figures used in the paper can be downloaded from the subfolder 'figures'.
 
-* *Figure_1_montage.ipynb* contains the Python codes for creating [Figure 1](./figures/Fig_1_montage.png) (montage of 500 gemstone images).
-* *BackgroundSegmentationExperiment_Intensity.ipynb* and *BackgroundSegmentationExperiment_Saturation.ipynb* contain the Python codes for generating the binary masks in Figure 4 and the masked image of *Alexandrite* in Figure 7(a).
-* *Figure_5_scatterplots.ipynb* includes the Python codes for creating the scatter plots in Figure 5.
-* *Figures_6_7.ipynb* contains the Python codes for creating Figure 6 (polar scatter plot in HSV space), 7(b) (scatter plot of RGB values of all pixels in an image of *Alexandrite*), (e) (RGB histogram), (f) (HSV histogram) and (g) (CIELAB histogram).
-* *KMeans-RGB* included the Python codes for producing the RGB colour of the non-background K-means cluster of the masked image of *Alexandrite* in Figure 7(c).
-* *MachineLearning.ipynb* contains the Python codes for generating the grey-level co-occurrence matrix in Figure 7(d), the local binary pattern histogram in Figure 7(h) and the confusion matrix for the best algorithm in Figure 9.
-* *Figure_8_results_boxplot.twb* includes Tableau file used to create Figure 8 (box plot showing the results for all combinations of machine learning algorithms and feature extraction methodologies aggregated by algorithm).
-* *HumanVision.ipynb* contains the Python codes for producing the confusion matrix of the best gemmologist.
+* *[Figure_1_montage.ipynb]()* contains the Python codes for creating [Figure 1](./figures/Fig_1_montage.png) (montage of 500 gemstone images).
+* *BackgroundSegmentationExperiment_Intensity.ipynb* and *BackgroundSegmentationExperiment_Saturation.ipynb* contain the Python codes for generating the binary masks in [Figures 4(b)](./figures/Fig_4_alexandrite_grey.png), [4(c)](./figures/Fig_4_alexandrite_saturation.png), [4(e)](./figures/Fig_4_amazonite_grey.png), [4(f)](./figures/Fig_4_amazonite_saturation.png), and the masked image of *Alexandrite* in [Figure 7(a)](Fig7_masked.png).
+* *Figure_5_scatterplots.ipynb* includes the Python codes for creating the scatter plots in [Figures 5(a)](./figures/Fig_5_RGB.png) RGB, [5(b)](./figures/Fig_5_HSV.png) HSV and 5[c](./figures/Fig_5_LAB.png) CIELAB space.
+* *Figures_6_7.ipynb* contains the Python codes for creating [Figures 6](./figures/Fig_6_HSVplots.png) polar scatter plot in HSV space, [7(b)](./figures/Fig7_RGBscatterplot.png) scatter plot of RGB values of all pixels in an image of *Alexandrite*, [7(e)](./figures/Fig7_RGBhistogram.png) RGB histogram, [7(f)](./figures/Fig_7_HSVhistogram.png) HSV histogram and [7(g)](./figures/Fig7_LABhistogram.png) CIELAB histogram.
+* *KMeans-RGB* included the Python codes for producing the RGB colour of the non-background K-means cluster of the masked image of *Alexandrite* in [Figure 7(c)](./figures/Fig7_RGBkmeans.png).
+* *MachineLearning.ipynb* contains the Python codes for generating the grey-level co-occurrence matrix in [Figure 7(d)](./figures/Fig_7_GLCM.png), the local binary pattern histogram in [Figure 7(h)](./figures/Fig7_LBP.png) and the confusion matrix for the best algorithm in [Figure 9](./figures/Fig_9_bestsystem.png).
+* *Figure_8_results_boxplot.twb* includes Tableau file used to create [Figure 8](./figures/Fig_8_accuracy) (box plot showing the results for all combinations of machine learning algorithms and feature extraction methodologies aggregated by algorithm).
+* *HumanVision.ipynb* contains the Python codes for producing the confusion matrix of the best gemmologist in [Figure 10](./figures/Fig_10_bestexpert.png).
 
 
 
