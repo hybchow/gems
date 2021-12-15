@@ -74,7 +74,7 @@ The expert group consisted of three gemmologists with both Graduate Gemologist o
 
 Experimental findings were visualised using Python and Tableau. All figures used in the paper can be downloaded from the subfolder 'figures'.
 
-* *Figure_1_montage.ipynb* contains the Python codes for creating the Figure 1 (montage of 500 gemstone images).
+* *Figure_1_montage.ipynb* contains the Python codes for creating [Figure 1](./figures/Fig_1_montage.png) (montage of 500 gemstone images).
 * *BackgroundSegmentationExperiment_Intensity.ipynb* and *BackgroundSegmentationExperiment_Saturation.ipynb* contain the Python codes for generating the binary masks in Figure 4 and the masked image of *Alexandrite* in Figure 7(a).
 * *Figure_5_scatterplots.ipynb* includes the Python codes for creating the scatter plots in Figure 5.
 * *Figures_6_7.ipynb* contains the Python codes for creating Figure 6 (polar scatter plot in HSV space), 7(b) (scatter plot of RGB values of all pixels in an image of *Alexandrite*), (e) (RGB histogram), (f) (HSV histogram) and (g) (CIELAB histogram).
