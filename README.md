@@ -26,10 +26,10 @@ A total of 2042 images were used for training %the computer vision systems and 2
 * The *Moonstone* images displayed a variety of either orange, white or yellow colour, which was undesirable for the algorithms, and were thus eliminated. 
 * Upon background segmentation, poorly segmented training images satisfying either of these conditions were discarded: (1) incomplete removal of background, or (2) extraction of only a minor portion of gemstone. Seventeen classes, namely *Andalusite*, *Cats Eye*, *Danburite*, *Goshenite*, *Grossular*, *Hiddenite*, *Jade*, *Labradorite*, *Larimar*, *Morganite*, *Opal*, *Pearl*, *Quartz Rose*, *Scapolite*, *Spinel*, *Spodumene* and *Variscite*, were removed, as fewer than 24 training images per class were retained.
 
-* *test_masked* contains the masked test images
-* *test_selected* contains the selected test images
-* *train_masked* contains the masked training images
-* *train_selected* contains the selected training images
+* *[test_masked](./test_masked)* contains the masked test images
+* *[test_selected](./test_selected)* contains the selected test images
+* *[train_masked](./train_masked)* contains the masked training images
+* *[train_selected](./train_selected)* contains the selected training images
 
 
 
