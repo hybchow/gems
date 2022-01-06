@@ -1,6 +1,8 @@
 # Automatic Gemstone Classification Using Computer Vision
 
-Repository related to a manuscript currently under peer-review. Upon acceptance this Readme will be expanded to serve as a user manual.
+Repository related to the manuscript "Automatic Gemstone Classification Using Computer Vision" by Bona Hiu Yan Chow and Constantino Reyes Aldasoro published in Minerals MDPI 2022, 12(1), 60 (doi: 10.3390/min12010060).
+
+Full-text PDF: https://www.mdpi.com/2075-163X/12/1/60/pdf
 
 <img src="Fig_1_montage.png" height="250" />
 
