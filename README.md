@@ -72,7 +72,7 @@ The expert group consisted of three gemmologists with both Graduate Gemologist o
 * *[HumanVision.ipynb](./HumanVision.ipynb)* contains an analysis of each gemmologist's predictions.
 
 
-**Figures** 
+**Visualisations** 
 
 Experimental findings were visualised using Python and Tableau. All figures used in the paper can be downloaded from the subfolder 'figures'.
 
