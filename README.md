@@ -41,7 +41,7 @@ All the algorithms used in this work were coded in Python 3.7.9.
 
 **Data Exploration and Pre-processing**
 
-* *InspectImages* contains an initial inspection of the image dataset.
+* *[InspectImages](./InspectImages.ipynb)* contains an initial inspection of the image dataset.
 
 
 **Background Segmentation**
