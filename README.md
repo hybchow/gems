@@ -54,6 +54,7 @@ We applied Otsu thresholding based on grey-level intensity or the Saturation cha
 
 
 **Feature and algorithm comparison**
+
 Seven different machine learning algorithms were compared, each with 33 different feature extraction methodologies, which provided a total of $ 7 \times 33 = 231$ combinations. Deep learning classification with ResNet-18 and ResNet-50 was also investigated. With the exception of transfer learning, the scripts were executed on a MacBook Pro equipped with a 2.3 GHz Intel Core i5 processor. Transfer learning was implemented on a virtual NVIDIA Tesla K80 Graphics Processing Unit (GPU) with two workers in Google Colaboratory. 
 
 * *[KMeans-CIELAB.ipynb](./KMeans-CIELAB.ipynb)* includes the extraction of CIELAB colour of the non-background K-means cluster centre.
