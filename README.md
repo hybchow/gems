@@ -1,6 +1,6 @@
 # Automatic Gemstone Classification Using Computer Vision
 
-Repository related to the manuscript "Automatic Gemstone Classification Using Computer Vision" by Bona Hiu Yan Chow and Constantino Carlos Reyes-Aldasoro published in Minerals MDPI, 2022, 12(1), 60 (doi: 10.3390/min12010060).
+Repository related to the manuscript "Automatic Gemstone Classification Using Computer Vision" by Bona Hiu Yan Chow and Constantino Carlos Reyes-Aldasoro published in the Minerals MDPI journal, 2022, 12(1), 60 (doi: 10.3390/min12010060). 
 
 Full-text PDF: https://www.mdpi.com/2075-163X/12/1/60/pdf
 
@@ -16,21 +16,20 @@ This paper presents a computer-vision-based methodology for automatic image-base
 <img src="Fig_5_RGB.png" height="200" /> <img src="Fig_5_HSV.png" height="200" /> <img src="Fig_5_LAB.png" height="200" />
 
 
-
 ## Dataset
 
 
-A total of 2326 images of gemstones were obtained from [Kaggle](https://www.kaggle.com/lsind18/gemstones-images) (accessed on the 27th April 2021) and analysed in this work. The images were grouped into categories, and for this work the following 68 classes were selected for analysis: *Alexandrite, Almandine, Amazonite, Amber, Amethyst, Ametrine, Andradite, Aquamarine, Aventurine Green, Aventurine Yellow, Benitoite, Beryl Golden, Bixbite, Bloodstone, Blue Lace Agate, Carnelian, Chalcedony, Chalcedony Blue, Chrome Diopside, Chrysoberyl, Chrysocolla, Chrysoprase, Citrine, Coral, Diamond, Diaspore, Dumortierite, Emerald, Fluorite, Hessonite, Iolite, Jasper, Kunzite, Kyanite, Lapis Lazuli, Malachite, Onyx Black, Onyx Green, Onyx Red, Peridot, Prehnite, Pyrite, Pyrope, Quartz Beer, Quartz Lemon, Quartz Rutilated, Quartz Smoky, Rhodochrosite, Rhodolite, Rhodonite, Ruby, Sapphire Blue, Sapphire Pink, Sapphire Purple, Sapphire Yellow, Serpentine, Sodalite, Spessartite, Sphene, Sunstone, Tanzanite, Tigers Eye, Topaz, Tourmaline, Tsavorite, Turquoise, Zircon* and *Zoisite*. 
+A total of 2326 images of gemstones were obtained from [Kaggle](https://www.kaggle.com/lsind18/gemstones-images) (accessed on 27 April 2021) and analysed in this work. The images were grouped into categories, and for this work the following 68 classes were selected for analysis: *Alexandrite, Almandine, Amazonite, Amber, Amethyst, Ametrine, Andradite, Aquamarine, Aventurine Green, Aventurine Yellow, Benitoite, Beryl Golden, Bixbite, Bloodstone, Blue Lace Agate, Carnelian, Chalcedony, Chalcedony Blue, Chrome Diopside, Chrysoberyl, Chrysocolla, Chrysoprase, Citrine, Coral, Diamond, Diaspore, Dumortierite, Emerald, Fluorite, Hessonite, Iolite, Jasper, Kunzite, Kyanite, Lapis Lazuli, Malachite, Onyx Black, Onyx Green, Onyx Red, Peridot, Prehnite, Pyrite, Pyrope, Quartz Beer, Quartz Lemon, Quartz Rutilated, Quartz Smoky, Rhodochrosite, Rhodolite, Rhodonite, Ruby, Sapphire Blue, Sapphire Pink, Sapphire Purple, Sapphire Yellow, Serpentine, Sodalite, Spessartite, Sphene, Sunstone, Tanzanite, Tigers Eye, Topaz, Tourmaline, Tsavorite, Turquoise, Zircon* and *Zoisite*. A total of 2042 images were used for training %the computer vision systems and 284 images were reserved for testing. For each class, 24--44 training images and 4--5 test images were available.
 
-A total of 2042 images were used for training %the computer vision systems and 284 images were reserved for testing. For each class, 24--44 training images and 4--5 test images were available. The original Kaggle dataset consists of 2856 images distributed in 87 classes, but some of these were discarded according to the following criteria.
+The original Kaggle dataset consists of 2856 images distributed in 87 classes, but some of these were discarded according to the following criteria.
 * The category *Garnet* was removed due to overlapping with *Almandine*, *Pyrope*, *Rhodolite* and *Spessartine*.
 * The *Moonstone* images displayed a variety of either orange, white or yellow colour, which was undesirable for the algorithms, and were thus eliminated. 
 * Upon background segmentation, poorly segmented training images satisfying either of these conditions were discarded: (1) incomplete removal of background, or (2) extraction of only a minor portion of gemstone. Seventeen classes, namely *Andalusite*, *Cats Eye*, *Danburite*, *Goshenite*, *Grossular*, *Hiddenite*, *Jade*, *Labradorite*, *Larimar*, *Morganite*, *Opal*, *Pearl*, *Quartz Rose*, *Scapolite*, *Spinel*, *Spodumene* and *Variscite*, were removed, as fewer than 24 training images per class were retained.
 
-* *[test_masked](./test_masked)* contains the masked test images
-* *[test_selected](./test_selected)* contains the selected test images
-* *[train_masked](./train_masked)* contains the masked training images
-* *[train_selected](./train_selected)* contains the selected training images
+* *[test_masked](./test_masked)* contains the masked test images.
+* *[test_selected](./test_selected)* contains the selected test images.
+* *[train_masked](./train_masked)* contains the masked training images.
+* *[train_selected](./train_selected)* contains the selected training images.
 
 
 
@@ -47,7 +46,7 @@ All the algorithms used in this work were coded in Python 3.7.9.
 
 **Background Segmentation**
 
-We applied Otsu thresholding based on grey-level intensity or the Saturation channel of HSV colour space to automatically extract gemstones from the background.
+We applied Otsu thresholding based on grey-level intensity or the Saturation channel of HSV colour space to automatically extract the gemstones from the backgrounds.
 
 * *[BackgroundSegmentationExperiment_Intensity.ipynb](./BackgroundSegmentationExecution.ipynb)* includes an exploration of intensity-based Otsu thresholding using the training images.
 * *[BackgroundSegmentationExperiment_Saturation.ipynb](./BackgroundSegmentationExperiment_Saturation.ipynb)* includes an exploration of saturation-based Otsu thresholding using the training images.
@@ -56,7 +55,7 @@ We applied Otsu thresholding based on grey-level intensity or the Saturation cha
 
 **Feature and algorithm comparison**
 
-Seven different machine learning algorithms were compared, each with 33 different feature extraction methodologies, which provided a total of $ 7 \times 33 = 231$ combinations. Deep learning classification with ResNet-18 and ResNet-50 was also investigated. With the exception of transfer learning, the scripts were executed on a MacBook Pro equipped with a 2.3 GHz Intel Core i5 processor. Transfer learning was implemented on a virtual NVIDIA Tesla K80 Graphics Processing Unit (GPU) with two workers in Google Colaboratory. 
+Seven different machine-learning algorithms (Logistic Regression, Linear Discriminant Analysis, K-Nearest Neighbour, Decision Tree, Random Forest, Naïve Bayes and Support Vector Machine) were compared, each with 33 different feature extraction methodologies (including colour histograms, local binary pattern, Haralick texture and grey-level co-occurrence matrix properties), which provided a total of $ 7 \times 33 = 231$ combinations. Deep-learning classification (transfer learning) with ResNet-18 and ResNet-50 was also investigated. With the exception of transfer learning, the scripts were executed on a MacBook Pro equipped with a 2.3 GHz Intel Core i5 processor. Transfer learning was implemented on a virtual NVIDIA Tesla K80 Graphics Processing Unit (GPU) with two workers in Google Colaboratory. 
 
 * *[KMeans-CIELAB.ipynb](./KMeans-CIELAB.ipynb)* includes the extraction of CIELAB colour of the non-background K-means cluster centre.
 * *[KMeans-HSV.ipynb](./KMeans-HSV.ipynb)* includes the extraction of HSV colour of the non-background K-means cluster centre.
@@ -86,6 +85,16 @@ Experimental findings were visualised using Python and Tableau. All figures used
 * *[HumanVision.ipynb](./HumanVision.ipynb)* contains the Python codes for producing the confusion matrix of the best gemmologist in [Figure 10](./figures/Fig_10_bestexpert.png).
 
 
+## Citation
+
+
+If you find our work useful, please cite us as:
+
+Chow, B.H.Y.; Reyes-Aldasoro, C.C. Automatic Gemstone Classification Using Computer Vision. Minerals 2022, 12, 60. https://doi.org/10.3390/min12010060
+
+Chow BHY, Reyes-Aldasoro CC. Automatic Gemstone Classification Using Computer Vision. Minerals. 2022; 12(1):60. https://doi.org/10.3390/min12010060
+
+Chow, Bona H.Y., and Constantino C. Reyes-Aldasoro. 2022. "Automatic Gemstone Classification Using Computer Vision" Minerals 12, no. 1: 60. https://doi.org/10.3390/min12010060
 
 
 
